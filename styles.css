@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    scroll-behavior: smooth;
 }   
 /* nav bar */   
 .brand{     
@@ -13,12 +14,13 @@
     padding: 30px 50px 30px;
 }
 .navbar{    
-    display: flex;  
+    display: flex;      
     justify-content: space-between; 
     font-size: 20px;
     font-weight: 600;   
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0,0.1);
 }   
+
 .nav-links{  
     display: flex;  
     margin:  30px 80px 30px 40px;   
@@ -39,13 +41,13 @@
 /* banner Section */
 .banner{    
     display: flex;  
-    justify-content: space-between;   
+    justify-content: space-between;    
     
 }   
 
 .banner-contant{        
     margin-left: 50px;  
-    margin-top: 100px;
+    margin-top: 200px;
 }           
 
 .banner-title{  
@@ -63,7 +65,7 @@
 }   
 /* hover button added */
 .btn-primary{
-    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    background-image: linear-gradient(to right, #1d9397 0%, #93f9eb  51%, #1d9397  100%);
     margin-top: 20px;   
     
     padding: 10px 24px 10px 24px;
@@ -94,7 +96,7 @@
     background-repeat: no-repeat;   
     background-size: 600px;
     margin-right: 80px; 
-    
+    margin-top: 200px;
 }       
 
  /* social link section */  
@@ -106,7 +108,7 @@
 
 .social-item{ 
     justify-content: space-between; 
-    padding: 50px;
+    padding: 10px;  
 }   
 
 .social-images{ 
