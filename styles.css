@@ -103,7 +103,7 @@
 
 .social-link{               
     text-align: center; 
-    padding: 20px;
+    padding: 20px; 
 }   
 
 .social-item{ 
@@ -184,7 +184,7 @@
     text-align:  center; 
     align-items: center;    
     padding: 20px;  
-    border-radius: 20px;    
+    border-radius: 20px;          
 }   
 
 /* products animation added */
@@ -260,19 +260,44 @@
     }   
 
     .future-image{  
-      margin: 70px; 
-      width: 700px; 
+        margin: 70px; 
+        width: 700px; 
+        box-sizing: border-box;
+        background: rgba(217, 217, 217, 0.58);
+        border: 3px solid rgb(117, 227, 255);
+        box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(6px);
+        border-radius: 17px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        font-weight: bolder;
+        color: black;
+        
+        }   
 
-      
-    }
+        .future-image:hover {
+            border: 2px solid black;
+            transform: scale(1.05);
+          }
+          
+          .future-image:active {
+            transform: scale(0.95) rotateZ(1.7deg);
+          }
 
 /* footer section */    
 
 .footer{    
     text-align: center; 
-    background-color: aqua; 
+    background-color: rgb(255, 255, 255); 
     padding: 60px;  
-    width: 100%;
+    width: 100%;    
+    border-radius: 20px;    
+    box-shadow: rgba(0, 0, 0,0.1);
 }   
 
 .footer-head{   
@@ -395,7 +420,10 @@
         margin-left: 200px;
        }    
 
-        
+       .future-image{   
+        width: 400px;   
+        height: 300px;
+       }
 
         .image-container{   
             background-position: center;
@@ -433,6 +461,11 @@
             padding: 0px;   
             margin-left: -10px;
     
+        }   
+
+        .future-image{  
+            width: 500px;   
+            height: 400px;
         }
 
     }   
